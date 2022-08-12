@@ -14,8 +14,10 @@ public class CheckYourAge {
 		int age = 30;
 
 		if (age < 18) {
+			// IF Age is Greater then 20 then output is 20
 		   System.out.println("Age is 20");
 		} else {
+			// If Age is Greater then 30 then Output is 30
 		   System.out.println("Age is 30");
 		}
 	}

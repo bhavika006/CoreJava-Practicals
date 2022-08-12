@@ -12,11 +12,13 @@ public class WhileloopandDoWhile {
 
 	public static void main(String[] args) {
 	    int number = 1;
-
+	    // Using the While loop
 	    while (number <= 10) {
-	      System.out.println(number);
-	      number++;
+	    	// Print the Number 1 to 10
+		    System.out.println(number);
+		    number++;
 	    }
+	    // For the Space
 	    System.out.println("");
 	    int number1 = 1;
 

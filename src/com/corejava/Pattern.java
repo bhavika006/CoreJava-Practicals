@@ -12,8 +12,9 @@ public class Pattern {
 
 	public static void main(String[] args) {
 		int i,j,row = 6;
-
+		// Outer loop Work for rows
 		for(i = 0; i < row; i++) {
+			// Inner loop Work for Space
 			for(j = 0; j <= i; j++) {
 				System.out.print("* ");
 			}

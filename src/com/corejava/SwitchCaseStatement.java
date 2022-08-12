@@ -11,9 +11,10 @@ package com.corejava;
 public class SwitchCaseStatement {
 
 	public static void main(String[] args) {
-		int Month = 7;
+		int month = 7;
 
-		switch (Month) {
+		// Using the switch command
+		switch (month) {
 			case 1:
 				System.out.println("january");
 				break;
@@ -33,11 +34,12 @@ public class SwitchCaseStatement {
 				System.out.println("June");
 				break;
 			case 7:
+				// The Current Month Name Printed
 				System.out.println("July");
 				break;
 			case 8:
 				System.out.println("August");
-				break;
+				break; 
 			case 9:
 				System.out.println("September");
 				break;
