@@ -15,7 +15,7 @@ public class SwitchCaseStatement {
 		// Using the switch command
 		switch (month) {
 			case 1:
-				System.out.println("january");
+				System.out.println("January");
 				break;
 			case 2:
 				System.out.println("February");
