@@ -14,7 +14,7 @@ public class StringMethod {
 		char result = myStr.charAt(0);
 		System.out.println(result);
 
-		// Using the String Method concat()
+		// Using the String Method connect()
 		String firstname = "Bhavika";
 		String secondname = "Patel";
 		System.out.println(firstname.concat(secondname));
@@ -26,7 +26,7 @@ public class StringMethod {
 		System.out.println(firstname1.equals(secondname1));
 		System.out.println(firstname1.equals(firstname2));
 
-		// Using the string Method lowercase()
+		// Using the string Method lyrics()
 		String x = "I AM VERY STRONG";
 		System.out.println( x.toLowerCase() ); // output is "a new java book" 
 

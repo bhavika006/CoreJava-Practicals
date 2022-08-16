@@ -1,30 +1,37 @@
 package com.corejava;
+
 /**
- * Practical No : 11
- *  Write a practical to use this/s uper variable
+ * Practical No : 11 Write a practical to use this/s uper variable
+ * 
  * @author Bhavika
  */
 
-
 public class Thisupervariable {
-		class Account{
-			int a;
-			int b;
 
-			public void setData(int a ,int b){
-			  a = a;
-			  b = b;
-			 }
-			public void showData(){
-			   System.out.println("Value of A ="+a);
-			   System.out.println("Value of B ="+b);
-			 }
-			public static void main(String args[]){
-			   Account myObj = new Account();
-			   obj.setData(2,3);
-			   obj.showData();
-			 }
-
+	Thisupervariable(){
+	System.out.println("bs");		
+	}
+	Thisupervariable(int a ,int b){
+	this();
+	this.a =a;
+	this.b = b;
 		}
+
+	int a;
+	int b;
+
+	public void a() {
+		System.out.println("Value of A =" + a);
+		}
+public void b() {
+	System.out.println("Value of B =" + b);
+}
+	public static void main(String args[]) {
+		Thisupervariable myObj = new Thisupervariable();
+		myObj.a();
+		myObj.b();
+
 	}
 
+	
+}
