@@ -11,21 +11,21 @@ package com.corejava;
 public class WhileloopandDoWhile {
 
 	public static void main(String[] args) {
-	    int number = 1;
-	    // Using the While loop
-	    while (number <= 10) {
-	    	// Print the Number 1 to 10
-		    System.out.println(number);
-		    number++;
-	    }
-	    // For the Space
-	    System.out.println("");
-	    int number1 = 1;
+		int number = 1;
+		// Using the While loop
+		while (number <= 10) {
+			// Print the Number 1 to 10
+			System.out.println(number);
+			number++;
+		}
+		// For the Space
+		System.out.println("");
+		int number1 = 1;
 
-	    do {
-	      System.out.println(number1);
-	      number1++;
-	    } while (number1 <= 10);
+		do{
+			System.out.println(number1);
+			number1++;
+		}while (number1 <= 10);
 	}
 
 }
