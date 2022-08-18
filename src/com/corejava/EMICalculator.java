@@ -4,7 +4,6 @@ package com.corejava;
  * Apply EMI Calculator in Java - Java program to calculate EMI using Class, Object, Variables, Operators, and Datatypes.
  * @author Bhavika
  */
-
 import java.util.Scanner;
 
 public class EMICalculator {

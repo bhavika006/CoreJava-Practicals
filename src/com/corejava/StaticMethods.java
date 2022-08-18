@@ -4,7 +4,7 @@ package com.corejava;
  * Write a program to demonstrate static methods, variables, and blocks.
  * @author Bhavika
  */
-public class staticmethods {
+public class StaticMethods {
 	// Static variable
 	static int var1;
 	static String var2;
@@ -28,15 +28,13 @@ public class staticmethods {
 		System.out.println("myMethod");
 		System.out.println("i:"+i);
 		System.out.println("s:"+s);
-		
+
 		System.out.println("Value of num: "+num);
 		System.out.println("Value of mystr"+mystr);
-		
-	}
 
+	}
 	public static void main(String[] args) {
 		myMethod();
-
 	}
 
 }

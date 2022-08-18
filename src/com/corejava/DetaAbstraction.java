@@ -5,26 +5,21 @@ package com.corejava;
  * @author Bhavika
  */
 
-public class Detaabstraction {
+public class DetaAbstraction {
 	abstract class car{
 		abstract void accelerate();
 	}
-	
+
 	class Maruti extends car{
 		void accelerate() {
 			System.out.println("Maruti::accelerate");
-			
+
 		}
-		
 	}
 	class main{
-	public static void main(String args[]) {
-		car Obj = new Maruti();
-		Obj.accelerate();
-		
+		public static void main(String args[]) {
+			car Obj = new Maruti();
+			Obj.accelerate();
+		}
 	}
-		
-
-	}
-
 }

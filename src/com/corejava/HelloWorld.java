@@ -1,9 +1,7 @@
 package com.corejava;
-
 /**
  * This is First practical-1
  * Print the"Hello World"
- * 
  * @author  Bhavika
  * @version 1.8
  * @Since   March 2014

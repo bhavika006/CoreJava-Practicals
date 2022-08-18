@@ -1,9 +1,7 @@
 package com.corejava;
-
 /**
  * This is a Practical-4
  * Print 1 to 10 Numbers
- * 
  * @author  Bhavika
  * @version 1.8
  * @Since   March 2014

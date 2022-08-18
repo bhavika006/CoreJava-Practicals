@@ -1,9 +1,7 @@
 package com.corejava;
-
 /**
  * This is a Practical 2.
  * To Check Your "Age"
- * 
  * @author  Bhavika
  * @version 1.8
  * @Since   March 2014

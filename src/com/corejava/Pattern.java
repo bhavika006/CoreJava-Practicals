@@ -1,5 +1,4 @@
 package com.corejava;
-
 /**
  * This is a Practical-5
  * Mentioned Pattern.
