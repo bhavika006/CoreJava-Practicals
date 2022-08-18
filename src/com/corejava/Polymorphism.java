@@ -4,7 +4,6 @@ package com.corejava;
  * Write a program to demonstrate two types of polymorphism like compile-time and runtime polymorphism.
  * @author Bhavika
  */
-
 	class Animal{
 		public void animalsound(){
 			System.out.println("The animal make sound");
@@ -20,8 +19,6 @@ package com.corejava;
 			System.out.println("The dog say:bhov bhov");
 		}
 	}
-	
-
 public class Polymorphism {
 		 public static void main(String[] args) {
 			Animal myAnimal = new Animal();
@@ -33,8 +30,7 @@ public class Polymorphism {
 			myDog.animalsound();
 			
 		 }
-		 
- }
+}
 
 
 

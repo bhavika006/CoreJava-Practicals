@@ -10,11 +10,9 @@ class A{
 			System.out.println("Display call");
 		}
 	}
-	public class Inheritance {
+public class Inheritance {
 	public static void main(String[] args) {
 		A obj = new B();
 		obj.display();
-		
 	}
-
 }

@@ -25,14 +25,14 @@ package com.corejava;
 	     System.out.println("method of Class C");
 	  }
 	}
-	class D extends B1
+	class D extends A1
 	{
 	  public void methodD()
 	  {
 	     System.out.println("method of Class D");
 	  }
 	}
-	public class HierarchicalInheritance {
+public class HierarchicalInheritance {
 
 	  public static void main(String args[])
 	  {
@@ -44,6 +44,4 @@ package com.corejava;
 	     obj2.methodA1();
 	     obj3.methodA1();
 	  }
-	}
-
-
+}

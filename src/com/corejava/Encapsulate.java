@@ -21,7 +21,6 @@ public class Encapsulate {
 			public void setName(String newName) {
 				Name = newName;
 			}
-			
 			public void setAge(int newAge) {
 				Age = newAge;
 			}

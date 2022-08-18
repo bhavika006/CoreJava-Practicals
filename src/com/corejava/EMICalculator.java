@@ -27,9 +27,6 @@ public class EMICalculator {
 			 emi= (principal*rate*Math.pow(1+rate,time))/(Math.pow(1+rate,time)-1);
 
 			 System.out.print("Monthly EMI is= "+emi+"\n");
-
 		 }
-
 	}
-
 }

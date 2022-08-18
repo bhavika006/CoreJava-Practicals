@@ -13,5 +13,4 @@ public class Wrapperclass {
 		System.out.println(myInt);
 		System.out.print(myChar);
 	}
-
 }

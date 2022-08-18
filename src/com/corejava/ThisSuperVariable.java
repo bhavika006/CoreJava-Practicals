@@ -29,5 +29,4 @@ public class ThisSuperVariable {
 		myObj.a();
 		myObj.b();
 	}
-
 }

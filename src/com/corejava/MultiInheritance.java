@@ -48,6 +48,6 @@ public class MultiInheritance {
 		public static void main(String[] args) {
 			C r = new C();
 			r.add();r.sub();r.multi();r.div();r.rem();
-			
+
 	}
 }
