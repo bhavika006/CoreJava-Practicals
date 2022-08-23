@@ -20,8 +20,8 @@ public class StringMethod {
 			System.out.println(firstname.concat(secondname));
 
 		// Using the String Method equal()
-		String firstname1 = "bhavika";
-		String firstname2 = "bhavika";
+		String firstname1 = "Bhavika";
+		String firstname2 = "Bhavika";
 		String secondname1 = "Patel";
 			System.out.println(firstname1.equals(secondname1));
 			System.out.println(firstname1.equals(firstname2));

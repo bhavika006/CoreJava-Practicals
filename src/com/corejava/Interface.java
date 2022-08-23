@@ -10,7 +10,7 @@ interface MAnimal{
 	}
 class Pig1 implements MAnimal{
 	public void animalsound() {
-	System.out.println("The sound is wow wow");
+		System.out.println("The sound is wow wow");
 	}
 	public void sleep() {
 		System.out.println("Zzz");
@@ -21,5 +21,5 @@ public class Interface {
 		Pig1 myPig1 = new Pig1();
 		myPig1.animalsound();
 		myPig1.sleep();
-		}
+	}
 }

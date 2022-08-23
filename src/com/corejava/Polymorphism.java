@@ -24,11 +24,9 @@ public class Polymorphism {
 			Animal myAnimal = new Animal();
 			Animal myPig = new Pig();
 			Animal myDog = new Dog();
-			
 			myAnimal.animalsound();
 			myPig.animalsound();
 			myDog.animalsound();
-			
 		 }
 }
 
