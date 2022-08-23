@@ -6,6 +6,10 @@ package com.corejava;
  */
 abstract class car{
 	abstract void accelerate();
+
+	protected static void add(String string) {
+		
+	}
 }
 class Maruti extends car{
 	void accelerate() {
