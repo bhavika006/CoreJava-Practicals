@@ -1,9 +1,8 @@
 package com.corejava;
 
 /**
- * This is a Practical-6 Use the loop for 10 numbers and stop the execution
- * after 7 numbers and skip any number.
- * 
+ * This is a Practical-6
+ * Use the loop for 10 numbers and stop the execution after 7 numbers and skip any number.
  * @author Bhavika
  * @version 1.8
  * @Since March 2014
