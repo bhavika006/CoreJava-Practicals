@@ -13,23 +13,23 @@ import java.util.Set;
 public class Duplicatevalue {
 
 	public static void main(String[] args) {
-		List<String> lst = new ArrayList<String>();
+		List< String > trip = new ArrayList< String >();
 
-		lst.add("A");
-		lst.add("B");
-		lst.add("C");
-		lst.add("D");
-		lst.add("A");
-		lst.add("C");
-		lst.add("E");
-		lst.add("E");
-		lst.add("E");
+		trip.add("Saputara");
+		trip.add("Manali");
+		trip.add("Chennai");
+		trip.add("Dubai");
+		trip.add("Greece");
+		trip.add("Greece");
+		trip.add("Saputara");
+		trip.add("Saputara");
+		trip.add("Dubai");
 
-		Set se =new HashSet(lst);
-		lst.clear();
-		lst = new ArrayList<String>(se);
-		for (Object ls : lst){
-			System.out.println("Resulting output---------" + ls);   
+		Set< String > enjoy = new HashSet< String >(trip);
+		trip.clear();
+		trip = new ArrayList< String >(enjoy);
+		for (Object ls : trip){
+			System.out.println("Resulting output---------" + ls);
 		}
 	}
 

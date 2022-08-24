@@ -1,6 +1,8 @@
 package com.corejava;
+
 /**
  * Practical no :1
+ * 
  * @author Bhavika
  */
 
@@ -12,7 +14,7 @@ public class Test {
 		Obj.setAge(27);
 
 		System.out.println("Name" + Obj.getName());
-		System.out.println("Rollno"+ Obj.getRollno());
-		System.out.println("Age"+ Obj.getAge());
+		System.out.println("Rollno" + Obj.getRollno());
+		System.out.println("Age" + Obj.getAge());
 	}
 }

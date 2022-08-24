@@ -1,11 +1,12 @@
 package com.corejava;
+
 /**
- * This is a Practical-4
+ * Practical-4 
  * Print 1 to 10 Numbers
- * @author  Bhavika
+ * @author Bhavika
  * @version 1.8
- * @Since   March 2014
-*/
+ * @Since March 2014
+ */
 public class WhileloopandDoWhile {
 
 	public static void main(String[] args) {
@@ -23,7 +24,7 @@ public class WhileloopandDoWhile {
 		do {
 			System.out.println(number1);
 			number1++;
-		}while (number1 <= 10);
+		} while (number1 <= 10);
 	}
 
 }
