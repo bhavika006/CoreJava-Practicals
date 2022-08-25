@@ -3,9 +3,9 @@ package com.corejava;
 /**
  * Practical no : 18 
  * Write a program to handle exceptions using try, catch,finally, throw, and throws keywords.
+ * 
  * @author Bhavika
  */
-
 public class ExceptionHandling {
 
 	public static void main(String[] args) {
@@ -13,9 +13,10 @@ public class ExceptionHandling {
 			int[] myNumber = { 1, 2, 3 }; // Array Created
 			System.out.println(myNumber[10]);
 		} catch (Exception e) {
-			System.out.println("Something is wrong");
+			System.out.println("Something is wrong"); // Final output 
 		} finally {
 			System.out.println("The try catch is finished");
 		}
 	}
+
 }

@@ -1,14 +1,15 @@
 package com.corejava;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 /**
  * Practical no:21 
  * Write another program using Set concepts.
+ * 
  * @author Bhavika
  */
-
 public class SetDemo {
 
 	public static void main(String[] args) {
@@ -20,6 +21,11 @@ public class SetDemo {
 		animal.add("Cat");
 
 		System.out.println(animal);
+		Iterator animalIterator = animal.iterator();
+
+		while (animalIterator.hasNext()) {
+			System.out.println(animalIterator.next()); // All HashSet Value print
+		}
 	}
 
 }

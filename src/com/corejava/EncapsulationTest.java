@@ -1,15 +1,16 @@
 package com.corejava;
 
 /**
- * Practical no :1
+ * Practical no :14
+ * Output the program.
  * 
  * @author Bhavika
  */
+public class EncapsulationTest {
 
-public class Test {
 	public static void main(String[] args) {
 		Encapsulate Obj = new Encapsulate();
-		Obj.setRollno(1);
+		Obj.setRollno(1); // Set the value in output
 		Obj.setName("Bhavika");
 		Obj.setAge(27);
 
@@ -17,4 +18,5 @@ public class Test {
 		System.out.println("Rollno" + Obj.getRollno());
 		System.out.println("Age" + Obj.getAge());
 	}
+
 }

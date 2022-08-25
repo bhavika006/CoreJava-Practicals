@@ -3,16 +3,18 @@ package com.corejava;
 /**
  * Practical no :12 
  * Write a program to demonstrate static methods, variables,and blocks.
+ * 
  * @author Bhavika
  */
 public class StaticMethods {
+
 	// Static variable
 	static int var1;
 	static String var2;
 
 	// Static method
-	static int i = 10;
-	static String b = "I am learning";
+	static int total = 10;
+	static String mySelf = "I am learning";
 
 	// Static block
 	static int num;
@@ -24,12 +26,13 @@ public class StaticMethods {
 	}
 
 	static void myMethod() {
+
 		System.out.println("Var1 is: " + var1);
 		System.out.println("Var2 is: " + var2);
 
 		System.out.println("myMethod");
-		System.out.println("i:" + i);
-		System.out.println("b:" + b);
+		System.out.println("i:" + total);
+		System.out.println("b:" + mySelf);
 
 		System.out.println("Value of num: " + num);
 		System.out.println("Value of mystr" + mystr);

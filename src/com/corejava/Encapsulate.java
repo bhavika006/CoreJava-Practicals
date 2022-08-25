@@ -1,11 +1,13 @@
 package com.corejava;
 
 /**
- * Pactical no 14: Write a program to demonstrate encapsulation
+ * Pactical no 14: 
+ * Write a program to demonstrate encapsulation
  * 
  * @author Bhavika
  */
 public class Encapsulate {
+
 	private String Name;
 	private int Rollno;
 	private int Age;
@@ -33,4 +35,5 @@ public class Encapsulate {
 	public void setAge(int newAge) {
 		Age = newAge;
 	}
+
 }

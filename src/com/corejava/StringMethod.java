@@ -1,39 +1,37 @@
 package com.corejava;
 
 /**
- * Practical No : 10 Create programs of all the string methods like charAt(),
- * concat(), equals() etc.
- * 
- * @author Bhavika
- */
-
+* Practical No : 10 Create programs of all the string methods like charAt(),
+* concat(), equals() etc.
+* 
+* @author Bhavika
+*/
 public class StringMethod {
 
 	public static void main(String[] args) {
-
 		// Using the String Method charAt()
 		String myStr = "Hello";
 		char result = myStr.charAt(0);
 		System.out.println(result);
 
 		// Using the String Method connect()
-		String firstname = "Bhavika";
-		String secondname = "Patel";
-		System.out.println(firstname.concat(secondname));
+		String firstName = "Bhavika";
+		String secondName = "Patel";
+		System.out.println(firstName.concat(secondName));
 
 		// Using the String Method equal()
-		String firstname1 = "Bhavika";
-		String firstname2 = "Bhavika";
-		String secondname1 = "Patel";
-		System.out.println(firstname1.equals(secondname1));
-		System.out.println(firstname1.equals(firstname2));
+		String firstName1 = "Bhavika";
+		String firstName2 = "Bhavika";
+		String secondName1 = "Patel";
+		System.out.println(firstName1.equals(secondName1));
+		System.out.println(firstName1.equals(firstName2));
 
 		// Using the string Method lyrics()
 		String x = "I AM VERY STRONG";
 		System.out.println(x.toLowerCase()); // output is "a new java book"
 
 		// Using the string Method Upercase()
-		String A = "i am very strong";
+		String a = "i am very strong";
 		System.out.println(x.toUpperCase()); // output is"A NEW JAVA BOOK"
 
 		// Using the string Method contains(“searchString”)
@@ -46,13 +44,13 @@ public class StringMethod {
 		System.out.println(x11.replace('0', 'A')); // output is "AaAaAaAaAa"
 
 		// Using the string Method CharArray()
-		String B = "BHAVIKA";
-		char[] charArray = B.toCharArray();
+		String b = "BHAVIKA";
+		char[] charArray = b.toCharArray();
 		System.out.println("Size of char array: " + charArray.length); // Output is Size of char array: 7
 
 		// Using the string Method int length()
-		String C = "0123456789";
-		System.out.println("Checking Length: " + C.length());
+		String c = "0123456789";
+		System.out.println("Checking Length: " + c.length());
 	}
 
 }

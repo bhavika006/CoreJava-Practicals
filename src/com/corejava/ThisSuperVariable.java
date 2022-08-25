@@ -2,10 +2,10 @@ package com.corejava;
 
 /**
  * Practical No : 11 
- * Write a practical to use this/super variable
+ * Write a practical to use this/super variable.
+ * 
  * @author Bhavika
  */
-
 public class ThisSuperVariable {
 
 	ThisSuperVariable() {
@@ -34,4 +34,5 @@ public class ThisSuperVariable {
 		myObj.a();
 		myObj.b();
 	}
+
 }

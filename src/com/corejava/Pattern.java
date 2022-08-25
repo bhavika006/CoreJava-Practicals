@@ -3,11 +3,11 @@ package com.corejava;
 /**
  * This is a Practical-5 
  * Mentioned Pattern.
+ * 
  * @author Bhavika
  * @version 1.8
  * @Since March 2014
  */
-
 public class Pattern {
 
 	public static void main(String[] args) { 
@@ -21,4 +21,5 @@ public class Pattern {
 			System.out.println();
 		}
 	}
+
 }

@@ -2,19 +2,20 @@ package com.corejava;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
+
 /**
  * Practical no : 22
- * Write a program to prepare the list like(“A”, ”B”, ”C”, ”D”, ”A”, ”C”, ”E”, ”E”, ”E”) and remove duplicate values of the list
- * @author Bhavika
+ * Write a program to prepare the list like and remove duplicate values of the list.
+ * 
+ * @author Bhavika.
  */
-
 public class Duplicatevalue {
 
 	public static void main(String[] args) {
-		List< String > trip = new ArrayList< String >();
-
+		List<String> trip = new ArrayList<String>();
 		trip.add("Saputara");
 		trip.add("Manali");
 		trip.add("Chennai");
@@ -25,12 +26,9 @@ public class Duplicatevalue {
 		trip.add("Saputara");
 		trip.add("Dubai");
 
-		Set< String > enjoy = new HashSet< String >(trip);
-		trip.clear();
-		trip = new ArrayList< String >(enjoy);
-		for (Object ls : trip){
-			System.out.println("Resulting output---------" + ls);
-		}
+		Set<String> set = new LinkedHashSet<String>(trip); // Not repetitive
+
+		System.out.println("Resulting output---------" + set); // Output is [Saputara, Manali, Chennai, Dubai, Greece]
 	}
 
 }

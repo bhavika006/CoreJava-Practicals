@@ -2,16 +2,16 @@ package com.corejava;
 /**
  * Practical no : 23
  * Write a program to Demonstrate Comparable 
+ * 
  * @author Bhavika
- *
  */
-
 public class ComparableMain implements Comparable < ComparableMain > {
 
 	private String Brand;
 	private int Ram1;
 	private int Price;
 
+	// Argument constructor
 	public ComparableMain(String brand, int ram1, int price) {
 		super();
 		this.Brand = brand;
@@ -49,12 +49,11 @@ public class ComparableMain implements Comparable < ComparableMain > {
 	}
 
 	public int compareTo(ComparableMain lap2) {
-		// this > lap2 = +
-		// this < lap2 = -
-		// this == lap2 = 0
-		if (this.getRam1() > lap2.getRam1())
+		if (this.getRam1() > lap2.getRam1()) {
 			return 1;
-		else
+		} else {
 			return -1;
+		}
 	}
+
 }
