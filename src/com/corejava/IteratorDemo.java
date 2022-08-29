@@ -17,7 +17,7 @@ public class IteratorDemo {
 		cars.add("BMW");
 		cars.add("ford");
 		cars.add("mazda");
-		// Print all the values.
+		// Print all the values.z
 		Iterator< String > iterator = cars.iterator();
 
 		while (iterator.hasNext()) {

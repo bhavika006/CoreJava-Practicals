@@ -6,34 +6,34 @@ package com.corejava;
  * 
  * @author Bhavika
  */
-class A1 {
+class Fruits {
 
-	public void methodA1() {
-		System.out.println("method of Class A");
+	public void fruits() {
+		System.out.println("Good for health");
 	}
 
 }
 
-class B1 extends A1 {
+class Banana extends Fruits {
 
-	public void methodB1() {
-		System.out.println("method of Class B");
+	public void bananaFruits() {
+		System.out.println("Strength for health is Banana");
 	}
 
 }
 
-class C extends A1 {
+class Mango extends Fruits {
 
-	public void methodC() {
-		System.out.println("method of Class C");
+	public void mangoFruits() {
+		System.out.println("Mango is testy");
 	}
 
 }
 
-class D extends A1 {
+class Orange extends Fruits {
 
-	public void methodD() {
-		System.out.println("method of Class D");
+	public void orangeFruits() {
+		System.out.println("Orange is good for health");
 	}
 
 }
@@ -41,13 +41,9 @@ class D extends A1 {
 public class HierarchicalInheritance {
 
 	public static void main(String args[]) {
-		B1 obj1 = new B1();
-		C obj2 = new C();
-		D obj3 = new D();
-		// All classes can access the method of class A
-		obj1.methodA1();
-		obj2.methodA1();
-		obj3.methodA1();
+		Orange orange = new Orange();
+		orange.fruits();
+		orange.orangeFruits();
 	}
 
 }

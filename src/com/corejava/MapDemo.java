@@ -11,13 +11,13 @@ import java.util.Map.Entry;
 public class MapDemo {
 
 	public static void main(String[] args) {
-		HashMap<Integer, String> map = new HashMap<Integer, String>();
-		map.put(100, "Bhavika"); // key and value
-		map.put(1001, "Chirag");
-		map.put(1002, "Gopi");
+		HashMap<Integer, String> details = new HashMap<Integer, String>();
+		details.put(100, "Bhavika"); // Key and value
+		details.put(1001, "Chirag");
+		details.put(1002, "Gopi");
 
-		for (Entry<Integer, String> m : map.entrySet()) {
-			System.out.println(m.getKey() + " " + m.getValue());
+		for (Entry<Integer, String> my : details.entrySet()) {
+			System.out.println(my.getKey() + " " + my.getValue());
 		}
 	}
 

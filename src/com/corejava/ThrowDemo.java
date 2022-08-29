@@ -6,18 +6,18 @@ package com.corejava;
  * 
  * @author Bhavika
  */
-public class ThrowandThrows {
+public class ThrowDemo {
 
 	static void checkAge(int age) {
-		if (age < 28) {
-
+		if (age > 28) {
 			throw new ArithmeticException("You are 28year old");
 		} else {
 			System.out.println("You are old enough");
 		}
 	}
+
 	public static void main(String[] args) {
-		checkAge(15);
+		checkAge(20);
 	}
 
 }

@@ -1,7 +1,7 @@
 package com.corejava;
 
 /**
- * Pactical no 14: 
+ * Practical no:14: 
  * Write a program to demonstrate encapsulation
  * 
  * @author Bhavika
@@ -36,4 +36,16 @@ public class Encapsulate {
 		Age = newAge;
 	}
 
+	public static void main(String[] args) {
+		Encapsulate Encapsulate = new Encapsulate();
+		Encapsulate.setRollno(1); // Set the value in output
+		Encapsulate.setName("Bhavika");
+		Encapsulate.setAge(27);
+
+		System.out.println("Name" + Encapsulate.getName());
+		System.out.println("Rollno" + Encapsulate.getRollno());
+		System.out.println("Age" + Encapsulate.getAge());
+	}
+
 }
+

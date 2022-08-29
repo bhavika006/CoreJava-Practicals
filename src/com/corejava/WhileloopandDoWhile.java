@@ -12,6 +12,7 @@ public class WhileloopandDoWhile {
 
 	public static void main(String[] args) {
 		int number = 1;
+		System.out.println("While loop output is:");
 		// Using the while loop
 		while (number <= 10) {
 			// Print the number 1 to 10
@@ -21,6 +22,7 @@ public class WhileloopandDoWhile {
 		// For the space
 		System.out.println("");
 		int number1 = 1;
+		System.out.println("Do While loop output is:");
 
 		do {
 			System.out.println(number1);

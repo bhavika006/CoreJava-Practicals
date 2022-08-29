@@ -10,15 +10,17 @@ package com.corejava;
  */
 public class Constructors {
 
-	int bhavika;
-	// Parameterized constructor
-	public Constructors(int y) {
-		bhavika = y;
+	public Constructors() {
+		System.out.print("Hello");
+	}
+
+	public Constructors(int number1, int number2) {
+		System.out.println("Total Sum is " + (number1 + number2));
 	}
 
 	public static void main(String[] args) {
-		Constructors myObj = new Constructors(10); // Created Object
-		System.out.println(myObj.bhavika);
+		Constructors myObj = new Constructors(); // Created Object
+		Constructors secondConstructor = new Constructors(10, 20);
 	}
 
 }

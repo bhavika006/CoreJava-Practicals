@@ -17,7 +17,7 @@ public class Index {
 
 	public static void main(String[] args) {
 		int[] my_array = { 1, 2, 3, 4, 5, 6, 7 };
-		System.out.println("Index posistin of 5 is:" + findindex(my_array, 5)); // Index posistin of 5 is:4
+		System.out.println("Index position of 5 is:" + findindex(my_array, 5)); // Index position of 5 is:4
 		System.out.println("Index position of 7 is:" + findindex(my_array, 7)); // Find index position number 7 is 6
 	}
 

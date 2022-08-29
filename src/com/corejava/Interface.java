@@ -6,7 +6,7 @@ package com.corejava;
  * 
  * @author LENOVO
  */
-interface MAnimal {
+interface MyAnimal {
 
 	public void animalsound();
 
@@ -14,7 +14,7 @@ interface MAnimal {
 
 }
 
-class Pig1 implements MAnimal {
+class Pig1 implements MyAnimal {
 
 	public void animalsound() {
 		System.out.println("The sound is wow wow");

@@ -1,7 +1,6 @@
 package com.corejava;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
@@ -12,7 +11,7 @@ import java.util.Set;
  * 
  * @author Bhavika.
  */
-public class Duplicatevalue {
+public class DuplicateValue {
 
 	public static void main(String[] args) {
 		List<String> trip = new ArrayList<String>();
@@ -28,7 +27,7 @@ public class Duplicatevalue {
 
 		Set<String> set = new LinkedHashSet<String>(trip); // Not repetitive
 
-		System.out.println("Resulting output---------" + set); // Output is [Saputara, Manali, Chennai, Dubai, Greece]
+		System.out.println("Resulting output---------" + set); // Output
 	}
 
 }

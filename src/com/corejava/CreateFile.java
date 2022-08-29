@@ -16,7 +16,7 @@ public class CreateFile {
 			FileWriter myWriter = new FileWriter("Filename.txt");
 			myWriter.write("First name is Bhavika"); // In file data write
 			myWriter.write("Second Name is Jiyani");
-			myWriter.close(); // File colse
+			myWriter.close(); // File close
 			System.out.println("Personal Details ");
 		} catch (IOException e) {
 			System.out.println("An error");

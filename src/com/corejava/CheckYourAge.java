@@ -20,5 +20,5 @@ public class CheckYourAge {
 			System.out.println("Age is 30");
 		}
 	}
-	
+
 }

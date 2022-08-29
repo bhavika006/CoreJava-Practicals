@@ -14,7 +14,7 @@ public class StaticMethods {
 
 	// Static method
 	static int total = 10;
-	static String mySelf = "I am learning";
+	static String students = "I am learning";
 
 	// Static block
 	static int num;
@@ -31,8 +31,8 @@ public class StaticMethods {
 		System.out.println("Var2 is: " + var2);
 
 		System.out.println("myMethod");
-		System.out.println("i:" + total);
-		System.out.println("b:" + mySelf);
+		System.out.println("total:" + total);
+		System.out.println("students:" + students);
 
 		System.out.println("Value of num: " + num);
 		System.out.println("Value of mystr" + mystr);

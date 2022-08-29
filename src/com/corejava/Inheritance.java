@@ -6,26 +6,28 @@ package com.corejava;
  * 
  * @author Bhavika
  */
-class A {
+class School {
 
-	void display() {
-		System.out.println("Base class");
+	void teacher() {
+		System.out.println("School is best Childhool memory");
 	}
 
 }
-class B extends A {
 
-	public void show() {
-		System.out.println("Display call"); // It's Single Inheritance
+class College extends School {
+
+	public void faculty() {
+		System.out.println("College is best memory"); // It's Single Inheritance
 	}
 
 }
+
 public class Inheritance {
 
 	public static void main(String[] args) {
-		B obj = new B();
-		obj.display();
-		obj.show();
+		College obj = new College();
+		obj.teacher();
+		obj.faculty();
 	}
 
 }

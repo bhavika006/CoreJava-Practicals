@@ -1,60 +1,45 @@
 package com.corejava;
 
 /**
- * Practical no:15 
- * Multi-level Inheritance.
+ * Practical no:15 Multi-level Inheritance.
  * 
  * @author Bhavika
  */
-class A2 {
 
-	int a, b, c;
+class SchoolStudent {
 
-	void add() {
-		a = 10;
-		b = 20;
-		c = a + b;
-		System.out.println("sum of number" + c);
-	}
+	String studentName;
+	int studentRollno;
 
-	void sub() {
-		a = 100;
-		b = 200;
-		c = a - b;
-		System.out.println("sub of number" + c);
+	public void setData() {
+
+		studentName = "Bhavika";
+		studentRollno = 6;
 	}
 
 }
 
-class B2 extends A2 { // Sub1
+class SubjectName extends SchoolStudent {
 
-	int a, b, c;
+	String SubjectName = "computer";
 
-	void multi() {
-
-		a = 10;
-		b = 20;
-		c = a * b;
-		System.out.println("Multipication of the number" + c);
-	}
-	void div() {
-		a = 10;
-		b = 2;
-		c = a / b;
-		System.out.println("Division of the number" + c);
+	public void display() {
+		System.out.println("Student Name :" + studentName);
+		System.out.println("Student Rollno :" + studentRollno);
 	}
 
 }
 
-class C2 extends B2 {
+class RoomNo extends SubjectName {
 
-	int a, b, c;
+	String RoomNo = "2'nd";
 
-	void rem() {
-		a = 10;
-		b = 20;
-		c = a % b;
-		System.out.println("Remainder of the number" + c);
+	public void display() {
+
+		System.out.println("Student Name :" + studentName);
+		System.out.println("Student Rollno :" + studentRollno);
+		System.out.println("Branch Name :" + SubjectName);
+		System.out.println("Room No :" + RoomNo);
 	}
 
 }
@@ -62,12 +47,14 @@ class C2 extends B2 {
 public class MultiInheritance {
 
 	public static void main(String[] args) {
-		C2 r = new C2();
-		r.rem();
-		r.add();
-		r.div();
-		r.sub();
-		r.multi();
+		SubjectName subjectName = new SubjectName();
+		subjectName.setData();
+		subjectName.display();
+
+		// Multi-level Inheritance
+		RoomNo roomNo = new RoomNo(); // Child class object
+		subjectName.setData(); // Call parent class method
+		subjectName.display(); // Call child class method
 	}
 
 }

@@ -21,10 +21,10 @@ public class SetDemo {
 		animal.add("Cat");
 
 		System.out.println(animal);
-		Iterator animalIterator = animal.iterator();
+		Iterator<String> animalIterator = animal.iterator();
 
 		while (animalIterator.hasNext()) {
-			System.out.println(animalIterator.next()); // All HashSet Value print
+			System.out.println(animalIterator.next()); // All HashSet Value print.
 		}
 	}
 
